@@ -1,5 +1,5 @@
 // backend/controllers/productController.js
-
+// Debug the error while retrieving data from database
 const db = require('../config/db');
 
 // --- 1. Get All Categories (with Pagination) ---
