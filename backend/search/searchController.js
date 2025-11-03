@@ -1,6 +1,6 @@
 // backend/search/searchController.js
 const esClient = require('./esClient');
-
+// connect this file to backend to elasticsearch
 const INDEX_NAME = 'products';
 
 exports.searchProducts = async (req, res) => {
