@@ -2,7 +2,7 @@
 const db = require('../config/db');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-
+// update the secret key
 // A "pepper" can be a secret string known only to the server.
 const PEPPER = process.env.PEPPER || '0405493735f7254cdf4d896042fb2498be832dc93952354cd2192b7983773ca3';
 const JWT_SECRET = process.env.JWT_SECRET || '1a5f94cc188e5041a92f0c950b2e88407deca660646d334b452c12d65351008a55cb404016b5ca2063001389cdba12164373e9a6d3da9d3fd98081dc6bfbd717';
